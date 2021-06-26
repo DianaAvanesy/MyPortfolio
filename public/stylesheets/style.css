@@ -1,0 +1,71 @@
+body {
+  font-family: Caveat;
+  font-size: 14px;
+  background-image: url('../images/background.gif') ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.mycustomfooter{
+  background-color: black;
+
+}
+
+header{
+  background-color: #fbf3eb;
+  font-family: Knewave;
+  font-size: 14px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #23324b;
+}
+.nav-item{
+  color: #23324b !important;
+}
+
+footer{
+  background-color: black !important;
+  
+}
+
+#logo{
+  width: 104px;
+  height: 49px;
+  align-self: flex-start;
+}
+
+.nav-pills{
+align-content: right;
+
+}
+
+#index-container{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  width: 60%;
+  color: white;
+  background-color:rgba(192,192,192,0.3);
+
+
+}
+
+.btn-primary{
+  background-color: #23324b !important;
+
+}
+.custom-cards{
+  padding-top: 3%;
+}
