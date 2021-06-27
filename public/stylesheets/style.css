@@ -18,13 +18,14 @@ a{
 
 .custom-button{
 color: seashell !important;
-
 }
 
 .mycustomfooter{
   background-color: black;
 
 }
+
+
 
 header{
   background-color: #fbf3eb;
@@ -35,8 +36,14 @@ header{
   padding: 0;
 
 }
+
+.description{
+  font-size: 20px !important;
+}
+
 .nav-link{
   color: #384e74 !important;
+  font-size: large;
 }
 
 .nav{
@@ -90,4 +97,8 @@ align-content: right;
 
 .btn-space {
   margin: 10px;
+}
+.btn-white{
+  color: antiquewhite !important;
+
 }
