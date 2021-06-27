@@ -1,15 +1,16 @@
 body {
   font-family: Caveat;
   font-size: 14px;
-  background-image: url('../images/background.gif') ;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-a {
-  color: #00B7FF;
+a{
+  padding: 20px;
+  color: black !important;
 }
 
 .mycustomfooter{
@@ -24,10 +25,15 @@ header{
   width: 100%;
   margin: 0;
   padding: 0;
-  color: #23324b;
+
 }
-.nav-item{
-  color: #23324b !important;
+.nav-link{
+  color: #384e74 !important;
+}
+
+.nav{
+  margin: auto;
+
 }
 
 footer{
@@ -56,9 +62,9 @@ align-content: right;
   transform: translate(-50%, -50%);
   font-size: 40px;
   width: 60%;
-  color: white;
-  background-color:rgba(192,192,192,0.3);
-
+  color: #384e74;
+  background-color:rgba(212, 193, 164, 0.3);
+  font-family: Knewave;
 
 }
 
@@ -68,4 +74,8 @@ align-content: right;
 }
 .custom-cards{
   padding-top: 3%;
+}
+.icon{
+  width: 25px;
+  height: 25px;
 }
