@@ -20,7 +20,7 @@ async function sendFormSubmission(options) {
 /* Home page. */
 router.get('/', function (req, res, next) {
   res.render('index', {
-    title: 'Home'
+    title: ''
   });
 });
 
