@@ -1,4 +1,5 @@
 var express = require('express');
+const app = require('../app');
 var router = express.Router();
 
 /* Home page. */
@@ -20,5 +21,7 @@ router.get('/projects', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact me' });
 });
+
+
 
 module.exports = router;

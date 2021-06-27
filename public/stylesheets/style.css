@@ -12,6 +12,14 @@ a{
   padding: 20px;
   color: black !important;
 }
+.custom-h2{
+ font-weight: bold;
+}
+
+.custom-button{
+color: seashell !important;
+
+}
 
 .mycustomfooter{
   background-color: black;
